@@ -82,31 +82,64 @@ cars.push({
 console.log(cars)
 
 
+
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
 const justTrims =[]
+
 
 /* ESERCIZIO 8
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
 */
 function colori(cars){
-  if(cars.color.charAt(0)=='b'){
+  if(cars[0].color.charAt(0)==='b'){
     return 'Fizz'
   }
   else{ 
     return 'Buzz'
   }
 }
-console.log(colori(cars))
+console.log(colori(cars));
 
+
+function colori1(cars){
+  if(cars[1].color.charAt(0)==='b'){
+    return 'Fizz'
+  }
+  else{ 
+    return 'Buzz'
+  }
+}
+console.log(colori1(cars));
+
+function colori2(cars){
+  if(cars[2].color.charAt(0)==='b'){
+    return 'Fizz'
+  }
+  else{ 
+    return 'Buzz'
+  }
+}
+console.log(colori2(cars));
+
+function colori3(cars){
+  if(cars[3].color.charAt(0)==='b'){
+    return 'Fizz'
+  }
+  else{ 
+    return 'Buzz'
+  }
+}
+console.log(colori3(cars));
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
 */
 const numericArray = [
   6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105,
 ]
+
 
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
