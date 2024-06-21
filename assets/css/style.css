@@ -95,8 +95,26 @@ body {
     text-align: center;
     background-color: #364759;
     color: #eaeded;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .logo2{
-    width: 20%;
-    margin: 30px auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 150px;
+    margin-left: 43%;
+    margin-right: 43%;
+}
+.link,.link2{
+    text-decoration: none;
+}
+.link, .link3{
+    color: #eaeded;
+}
+.link2{
+    color: #275c69;
+    font-size: large;
+}
+.inline, .link2{
+    display: inline;
 }
